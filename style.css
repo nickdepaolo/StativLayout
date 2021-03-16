@@ -1,0 +1,405 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    max-width: 100%;
+}
+
+
+body{
+    background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.1) 25%),
+    url("C:/ElevenFiftyProjects/JavaScript-Library/projects/staticLayout/assets/main.jpg");
+    background-size: 100em auto;
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: -1;    
+}
+
+
+.buttonTop:hover {
+    opacity: 0.8;
+}
+
+
+.cent {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+#buttonTop {
+    border: none;
+    color: rgb(7, 7, 7);
+    padding: 20.5px 30.75px;
+    text-align: center;
+    font-size: 13.5px;
+    margin: 0px auto;
+    cursor: pointer;
+    border-radius: .3em;
+    font-family: Helvetica, sans-serif;
+    font-weight:lighter;
+    letter-spacing: .1em;
+    font-weight: 650;
+    letter-spacing: 1.5px;
+    word-spacing: -.5px;
+}
+
+
+#button2{
+    width: 137px;
+    height: 56px;
+    border:solid 2px white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255,0);
+    font-size: 13.5px;
+    color: white;
+    position: relative;
+    top: 4em;
+    right: 1.1em;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+
+
+.textGreen{
+    color: #2DBD9D;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 6px;
+    letter-spacing: .5px;
+    font-weight: bold;
+    position: relative;
+    top: -2px;
+    right: 0px;
+}
+
+.textGreen2{
+    color: #2DBD9D;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-size:12px;
+    letter-spacing: 0.25px;
+    padding-left: 0em;
+    padding-top: 1em;
+    font-weight: 700;
+}
+
+
+.textGreen3{
+    color: #2DBD9D;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    padding: 30px 0px;
+    font-weight: 750;
+}
+
+
+.textWhite{
+    color: white;
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-size: 1.38em;
+    letter-spacing: 0em;
+    line-height: .4em;
+    font-weight: 650;
+    position: relative;
+    top: -3px;
+    right: 0px;
+}
+    
+
+.border{
+    background-image: linear-gradient(to right, #081520 , #0E4557);
+    position: relative;
+    top: .38em;
+    right: 0em;
+        
+}
+
+
+.setImage{
+    width: 25%;
+    height: auto;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.bottom {
+    background: black;
+    margin: 0;
+    position: relative;
+    top: -1.8em;
+    right: 0em;
+        
+}
+
+
+#bigText{
+    color: white;
+    font-size: 62px;
+    text-align: center;
+    position: relative;
+    top: -1.4em;
+    right: 0em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    word-spacing: -12px;
+    letter-spacing: -1px;
+    
+}
+
+
+#lowerWhiteText{
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    position: relative;
+    top: -1em;
+    right: 0em;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: -5.5em;
+    right: 0em;
+    padding: 0px 0px 0px 0px;
+    letter-spacing: .5px;
+    line-height: 27px;
+}
+    
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    object-fit: fill;
+    justify-content: space-evenly;
+    filter: brightness(.7);
+    position: relative;
+    top: -5.5em;
+    right: 0em;
+    z-index: 3;
+}
+
+
+#flex3{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -33.5em;
+    right: 9em;
+    justify-content: space-evenly;
+    z-index: 4;
+}
+
+
+#flex4{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -33.5em;
+    right: 9em;
+    justify-content: space-evenly;
+    z-index: 2;
+    z-index: 4;
+}
+
+
+.getText{
+    align-content: right;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgba(255,255,255,1);
+    padding-right: 12em;
+    padding-left: 0em;
+    position: relative;
+    top: -10px;
+    right: 0px;
+    line-height: 30px;  
+    letter-spacing: .5px;     
+}
+
+
+.logInFlex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+ #logIn {
+    width: 135px;
+    height: 58px;
+    border: none;
+    background: rgba(255, 255, 255,0);
+    font-size: 13.5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding: 2.2em 0em;
+}
+  
+
+#logIn:hover{opacity: .8;}
+
+
+#trial {
+      padding: 10em 0em 0em 0em ;
+}
+
+
+#textGrey{
+    color: rgba(255,255,255,.5);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .62em;
+    letter-spacing: .05em;
+    padding: 1em 0em 1em 0em;
+}
+
+
+#logo{
+    padding: 1.1em 0em 0em 0em;
+    position: relative;
+    top: -.19em;
+    right: 0em;
+}
+
+
+#addOns{
+    color: white;
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+    font-size:  15.8px;
+    position: relative;
+    top: 8px;
+    right: 0px;
+    line-height: 26px;
+    padding: 0px 0px 15px 0px;
+}
+
+
+#textBlack {
+    color: black;
+}
+
+
+#corp{
+    text-align: left;
+    padding: 3.2em 2em 1em 2.5em;
+}
+
+
+.pictureText1{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0px;
+    right: -22px;
+    cursor: pointer;
+}
+
+
+.pictureText2{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+
+.pictureText3{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0px;
+    right: -41px;
+    cursor: pointer;
+
+}
+
+
+.pictureText4{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0px;
+    right: -85px;
+    cursor: pointer;
+}
+
+
+#pictureTextLarge1{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -38px;
+    right: -24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#pictureTextLarge2{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -38px;
+    right: -65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+#pictureTextLarge3{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -38px;
+    right: -136px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+#pictureTextLarge4{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -38px;
+    right: -140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+.overlay{
+    cursor: pointer;
+}
+
+
+#cost{
+    font-size: 10.5px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: -210px;
+    right: 20px;
+    text-align: right;
+    z-index: 3;
+}
+
