@@ -8,7 +8,7 @@ html, body {
 body{
     background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.1) 25%),
     url("assets/main.jpg");
-    background-size: 100em auto;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: top right;
     z-index: -1;    
